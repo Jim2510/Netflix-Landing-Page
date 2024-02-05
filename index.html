@@ -8,13 +8,21 @@
   </head>
   <body>
     <nav>
-      <div class="row">
-        <div class="container flex justify-between">
+      <div class="nav row flex justify-between mAuto p-top">
+        <div class="container nav flex justify-between">
             <div class="nav__logo">
-                <img src="" alt="Logo"/>
+                <img src="./assets/imgs/Netflix_2015_logo.svg.png" alt="Logo"/>
             </div>
-            <div class="nav__btn-actions">
-                
+            <div class="nav__btn-actions flex align-center">
+                <form action="" class="flex">
+                    <div class="flex align-center">
+                    <select name="language" id="lg" class="txtWht form border-rounded select flex justify-center">
+                        <option class="bg-wht reverse-color" value="ita">Italiano</option>
+                        <option class="bg-wht reverse-color" value="eng">English</option>
+                    </select>
+                </div>
+                    <button class="btn-action primary-color txt-bold border-rounded txt-center flex align-center justify-center txtWht">Accedi</button>
+                </form>
             </div>
         </div>
       </div>

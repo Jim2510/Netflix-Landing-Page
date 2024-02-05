@@ -1,11 +1,37 @@
-nav .nav__logo {
+.nav {
+  width: calc(83.33333333333334% - 6rem);
+}
 
+nav .nav__logo {
 }
 
 nav .nav__logo img {
-
+  width: 148px;
+  height: 40px;
 }
 
 nav .nav__btn-actions {
+}
 
+.btn-action {
+  width: 77px;
+  height: 32px;
+  border: none;
+  margin-left: 24px;
+}
+
+.form {
+  width: fit-content;
+  height: 32px;
+}
+
+.select {
+  flex: 1;
+  padding: 5px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.select:hover {
+  border: 2px solid #fff;
 }
