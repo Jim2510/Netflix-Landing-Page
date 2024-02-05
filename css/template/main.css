@@ -13,6 +13,14 @@
     max-width: var(--general-max-width);
 }
 
+.divider {
+    width: 100%;
+    height: 0.5 rem;
+    position: absolute;
+    bottom: -0.5 rem;
+    background-color: var(--color-divider);
+}
+
 /* @media screen and (min-width: 900px) {
     
 } */

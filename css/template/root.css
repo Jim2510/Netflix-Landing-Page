@@ -1,8 +1,34 @@
+
+@font-face {
+    font-family: "Netflix";
+    src : url(../../assets/font/NetflixSans-Regular.otf);
+  }
+
+
 :root {
     /* Colors: */
+    --color-primary: #E50914;
+    --color-primary-hover: #C11119;
+    --color-secondary-text: #fff;
+    --color-terziary: #2d2d2d;
+    --color-terziary-hover: #414141;
+    --color-reverse: #000;
+    --color-divider: #353535;
     /* Sizes: */
+    --btn-width: auto;
     --general-max-width: 1170px;
     /* Spacing: */
+    --container-form-padding: 1rem auto 0;
+    --btn-padding:0.75rem 1.5rem;
     --section-tb-padding: 72px;
     /* Font: */
+    --titles-size: 3rem;
+    --title-weight: 900;
+    --h3-size: 1.25rem;
+    --h3-weight: 400;
+    --h3-line-height: 1.5;
+    --p-size: 1.5rem;
+    --p-weight: 400;
+    --font-family :"Netflix";
+
 }
