@@ -21,17 +21,10 @@ nav .nav__btn-actions {
 }
 
 .form {
-  width: fit-content;
+  width: 126px;
   height: 32px;
 }
 
-.select {
-  flex: 1;
-  padding: 5px;
-  padding-right: 30px;
-  padding-left: 30px;
-}
-
-.select:hover {
+.select:active {
   border: 2px solid #fff;
 }
