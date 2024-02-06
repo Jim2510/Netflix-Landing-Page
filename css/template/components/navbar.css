@@ -3,6 +3,7 @@
 }
 
 nav .nav__logo {
+    width: fit-content;
 }
 
 nav .nav__logo img {
