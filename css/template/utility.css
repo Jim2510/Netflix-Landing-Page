@@ -9,6 +9,9 @@
 .flex.justify-between {
     justify-content: space-between;
 }
+.flex.justify-around{
+    justify-content: space-around;
+}
 
 .flex.column {
     flex-direction: column;
@@ -17,6 +20,7 @@
 .flex.align-center {
     align-items: center;
 }
+
 
 .border {
     border: 1px solid #fff;
@@ -51,7 +55,15 @@
     border-radius: 5px;
 }
 
+.maxh{
+    height: 100%;
+}
+
+
 /* Colors */
+.transparent{
+    background-color: transparent;
+}
 
 .primary-color {
     background-color: var(--color-primary);
