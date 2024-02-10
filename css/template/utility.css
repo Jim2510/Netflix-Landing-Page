@@ -73,6 +73,10 @@
 }
 
 /* Colors */
+.transparent-black{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.593) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
 .transparent {
     background-color: transparent;
 }
