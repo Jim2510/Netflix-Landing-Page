@@ -2,15 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--color-reverse);
     font-family: var(--font-family);
 }
+
+
 
 .row {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: transparent;
+    background-color: var(--color-reverse);
 }
 
 .row.section {

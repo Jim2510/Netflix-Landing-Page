@@ -1,0 +1,32 @@
+.box {
+  min-width: 50%;
+  height: 434px;
+}
+
+.box__title {
+  text-align: start;
+}
+
+.box__title p {
+  margin-top: 16px;
+}
+
+.box__img {
+  background: url("../../../assets/imgs/tv.png");
+  background-size: cover;
+}
+
+.box__img2 {
+  background: url("../../../assets/imgs/device-pile.png");
+  background-size: cover;
+}
+
+.box__img3 {
+  background: url("../../../assets/imgs/AAAABQsAP_o9hR1G6Iof9Ckx0xjVOkOYPfWTiMN69dvL5yzSCKoCYylyrG4QSXvHmcT9To8tTTtNGP6_97vR8Y5utqllhB17BwfvB_lE.png");
+  background-size: cover;
+}
+
+.box__img4 {
+    background: url("../../../assets/imgs/mobile-0819.jpg");
+    background-size: cover
+}
