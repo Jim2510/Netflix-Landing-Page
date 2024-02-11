@@ -1,36 +1,43 @@
-.footer {
+footer {
     background-color: black;
     display: flex;
     flex-direction: column;
-    margin: 72px 112.594px 72px 112.594px;
-    padding-left: 48px;
-    padding-right: 48px;
+    margin: 4.5rem auto;
+    padding: 0px 48px;
 
 }
 
-.link ul li {
+.footer_links ul li {
     list-style-type: none;
     margin: 16px 0px 0px 12px;
 }
 
-.link {
+.footer_links {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 2rem;
-    justify-items: left;
+    margin-bottom: 14px;
+    margin-left: -12px;
+    margin-top: -16px;
 }
 
-.footer,
-.link a {
-    color: var(--color-secondary-text);
+footer,
+footer a {
+    color: rgba(255, 255, 255, 0.7);
     font-size: 0.9rem;
 
 }
 
-.netflix {
+.netflix_tag {
     margin-top: 24px;
 }
 
-.questions p {
+.support_number p {
     margin-bottom: 1.5rem;
 }
+
+select {
+    background: #0f0f0f;
+}
+
+/* form background to add*/
