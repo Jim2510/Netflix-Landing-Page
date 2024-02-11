@@ -1,11 +1,8 @@
 @font-face {
-  font-family: "Netflix";
-  src: url(../../assets/font/NetflixSans-Regular.otf);
-}
-
-@font-face {
-  font-family: 'Netflix-bold';
-  src: url('../../assets/font/NetflixSans-Bold.otf')
+  font-family: 'Netflix Sans';
+  font-weight: 400;
+  font-display: optional;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2) format('woff2'), url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff) format('woff')
 }
 
 :root {
@@ -35,7 +32,7 @@
   --h3-line-height: 1.5rem;
   --p-size: 1.25rem;
   --p-weight: 400;
-  --font-family: "Netflix";
+  --font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --font-family-bold: 'Netflix-bold';
   --font-size-form: 20px;
 
