@@ -5,7 +5,9 @@
     font-family: var(--font-family);
 }
 
-
+body {
+    background-color: var(--color-reverse);
+}
 
 .row {
     width: 100%;
@@ -91,4 +93,6 @@
 }
 
 
-/* @media screen and (min-width: 900px) {} */
+/* @media screen and (min-width: 960px) {
+
+} */
