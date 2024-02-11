@@ -92,6 +92,9 @@ body {
     width: 137.22px;
 }
 
+.bg-input {
+    background: #0f0f0f;
+}
 
 /* @media screen and (min-width: 960px) {
 

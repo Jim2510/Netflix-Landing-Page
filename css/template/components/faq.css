@@ -25,12 +25,3 @@ h2 {
     font-size: 3rem;
     font-weight: 900;
 }
-
-.row .section {
-    background-color: var(--color-reverse);
-}
-
-/* body {
-    width: 100vw;
-    height: 100vh;
-} */
