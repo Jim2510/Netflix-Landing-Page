@@ -25,7 +25,3 @@ h2 {
     font-size: 3rem;
     font-weight: 900;
 }
-
-.row .section {
-    background-color: var(--color-reverse);
-}

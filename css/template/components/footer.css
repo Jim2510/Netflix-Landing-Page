@@ -1,10 +1,5 @@
 footer {
     background-color: black;
-    display: flex;
-    flex-direction: column;
-    margin: 4.5rem auto;
-    padding: 0px 48px;
-
 }
 
 .footer_links ul li {
@@ -19,6 +14,7 @@ footer {
     margin-bottom: 14px;
     margin-left: -12px;
     margin-top: -16px;
+    width: 100%;
 }
 
 footer,
@@ -32,12 +28,11 @@ footer a {
     margin-top: 24px;
 }
 
-.support_number p {
+.support_number {
     margin-bottom: 1.5rem;
+    font-size: 1rem;
 }
 
-select {
-    background: #0f0f0f;
+.support_number a {
+    font-size: 1rem;
 }
-
-/* form background to add*/
