@@ -19,6 +19,8 @@
 .box .box__img {
     width: 100%;
     height: auto;
+    position: relative;
+    z-index: 1;
 }
 
 .box__img3 {
@@ -33,12 +35,13 @@
 
 .box .box__video video {
     position: relative;
-    z-index: -100;
+    z-index: 0;
 }
 
 .box .box__video.v1 video{
-    top: -350px;
-    width: 424px;
+    top: -352px;
+    left: -5px;
+    width: 430px;
 }
 
 .box .box__video.v2 video {
@@ -54,4 +57,11 @@
     border-radius: 0.75rem;
     padding: 10px;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .flex-mobile {
+        display: flex;
+        flex-direction: column;
+    }
 }
