@@ -3,6 +3,11 @@
 @import url("./template/main.css");
 
 
+
 /* Components */
 
 @import url("./template/components/navbar.css");
+@import url("./template/components/header.css");
+@import url("./template/components/sections.css");
+@import url("./template/components/faq.css");
+@import url("./template/components/footer.css");

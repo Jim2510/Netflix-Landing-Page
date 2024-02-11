@@ -1,7 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+body {
+    background-color: var(--color-reverse);
+}
+
 .row {
     width: 100%;
     display: flex;
     justify-content: center;
+    /* background-color: var(--color-reverse); */
 }
 
 .row.section {
@@ -13,14 +25,77 @@
     max-width: var(--general-max-width);
 }
 
+.row.contForm {
+    margin: 0 93px;
+    padding: 0 32px;
+}
+
+.row.infoSec {
+    width: 50%;
+}
+
+.row.container-title {
+    width: var(--general-wd-container);
+}
+
 .divider {
     width: 100%;
-    height: 0.5 rem;
-    position: absolute;
-    bottom: -0.5 rem;
+    height: 10px;
     background-color: var(--color-divider);
 }
 
-/* @media screen and (min-width: 900px) {
-    
+.form.padding {
+    padding: 24px 16px 8px;
+}
+
+.form.contPadding {
+    padding: var(--container-form-padding);
+}
+
+
+/* TEXT */
+
+.main-title {
+    color: var(--color-secondary-text);
+    font-size: var(--titles-size);
+    font-weight: var(--title-weight);
+    font-family: var(--font-family-bold);
+}
+
+.h3 {
+    color: var(--color-secondary-text);
+    font-size: var(--h3-size);
+    font-weight: var(--h3-weight);
+    line-height: var(--h3-line-height);
+}
+
+.p {
+    color: var(--color-secondary-text);
+    font-size: var(--p-size);
+    font-weight: var(--p-weight);
+}
+
+.input-mail {
+    background-color: rgba(105, 135, 180, 0.708);
+    padding: var(--padding-form);
+    width: 440.78px;
+    height: 56px;
+
+}
+
+.button {
+    padding: var(--padding-button-email);
+    border-style: none;
+    font-size: var(--font-size-form);
+    margin-left: 8px;
+    height: 56px;
+    width: 137.22px;
+}
+
+.bg-input {
+    background: #0f0f0f;
+}
+
+/* @media screen and (min-width: 960px) {
+
 } */

@@ -1,0 +1,27 @@
+.faq ul li {
+    width: 100%;
+    height: 80px;
+    background-color: var(--color-terziary);
+    margin-bottom: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 24px;
+
+}
+
+button:hover {
+    background-color: var(--color-primary-hover);
+}
+
+.faq ul li:hover {
+    background-color: var(--color-terziary-hover);
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 3rem;
+    font-weight: 900;
+}

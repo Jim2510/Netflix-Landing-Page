@@ -1,0 +1,38 @@
+footer {
+    background-color: black;
+}
+
+.footer_links ul li {
+    list-style-type: none;
+    margin: 16px 0px 0px 12px;
+}
+
+.footer_links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 14px;
+    margin-left: -12px;
+    margin-top: -16px;
+    width: 100%;
+}
+
+footer,
+footer a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+
+}
+
+.netflix_tag {
+    margin-top: 24px;
+}
+
+.support_number {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
+.support_number a {
+    font-size: 1rem;
+}
