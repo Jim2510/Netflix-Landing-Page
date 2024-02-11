@@ -63,12 +63,20 @@
     height: 100%;
 }
 
+.h600 {
+    height: 600px;
+}
+
 .w100 {
     width: 100%;
 }
 
 .mtop16 {
     margin-top: 16px;
+}
+
+.mtop25{
+    margin-top: 25px;
 }
 
 .mtop45 {
