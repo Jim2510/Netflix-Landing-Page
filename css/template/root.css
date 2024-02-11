@@ -1,12 +1,4 @@
-@font-face {
-  font-family: "Netflix";
-  src: url(../../assets/font/NetflixSans-Regular.otf);
-}
-
-@font-face {
-  font-family: 'Netflix-bold';
-  src: url('../../assets/font/NetflixSans-Bold.otf')
-}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,900;9..40,1000&display=swap');
 
 :root {
   /* Colors: */
@@ -16,7 +8,8 @@
   --color-terziary: #2d2d2d;
   --color-terziary-hover: #414141;
   --color-reverse: #000;
-  --color-divider: #353535;
+  --color-divider: #232323;
+  --color-download: #0071EB;
   /* Sizes: */
   --btn-width: auto;
   --general-max-width: 1170px;
@@ -29,14 +22,13 @@
   --padding-button-email: 12px 24px;
   /* Font: */
   --titles-size: 3rem;
-  --title-weight: 900;
+  --title-weight: 1000;
   --h3-size: 1.5rem;
   --h3-weight: 400;
   --h3-line-height: 1.5rem;
   --p-size: 1.25rem;
   --p-weight: 400;
-  --font-family: "Netflix";
-  --font-family-bold: 'Netflix-bold';
+  --font-family: 'DM Sans', sans-serif;
   --font-size-form: 20px;
 
 }
