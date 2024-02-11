@@ -1,8 +1,4 @@
-body {
-    background-color: black;
-}
-
-.row .container {
+.footer {
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -11,11 +7,6 @@ body {
     padding-right: 48px;
 
 }
-
-/* .link ul li a {
-    text-decoration: none;
-
-} */
 
 .link ul li {
     list-style-type: none;
@@ -29,13 +20,17 @@ body {
     justify-items: left;
 }
 
-.row .container,
+.footer,
 .link a {
     color: var(--color-secondary-text);
     font-size: 0.9rem;
 
 }
 
-.row .container p {
+.netflix {
+    margin-top: 24px;
+}
+
+.questions p {
     margin-bottom: 1.5rem;
 }
