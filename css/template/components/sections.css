@@ -7,18 +7,18 @@
   text-align: start;
 }
 
+.box__title h2 {
+    font-size: 50px;
+}
+
 .box__title p {
   margin-top: 16px;
+  line-height: 30px;
 }
 
-.box__img {
-  background: url("../../../assets/imgs/tv.png");
-  background-size: cover;
-}
-
-.box__img2 {
-  background: url("../../../assets/imgs/device-pile.png");
-  background-size: cover;
+.box .box__img {
+    width: 100%;
+    height: auto;
 }
 
 .box__img3 {
@@ -29,4 +29,29 @@
 .box__img4 {
     background: url("../../../assets/imgs/mobile-0819.jpg");
     background-size: cover
+}
+
+.box .box__video video {
+    position: relative;
+    z-index: -100;
+}
+
+.box .box__video.v1 video{
+    top: -350px;
+    width: 424px;
+}
+
+.box .box__video.v2 video {
+    top: -400px;
+    width: 360px;
+    left: -5px;
+}
+
+.box .box__download {
+    width: 316px;
+    height: 103px;
+    border: 1.6px solid #5A5A5A;
+    border-radius: 0.75rem;
+    padding: 10px;
+    margin-bottom: 20px;
 }
