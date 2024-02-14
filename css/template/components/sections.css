@@ -65,22 +65,35 @@
     .flex-mobile {
         display: flex;
         flex-direction: column;
+        height: fit-content;
     }
 
     .reverse {
         flex-direction: column-reverse;
     }
 
+    .box {
+        height: fit-content;
+    }
+
     .box__title {
         text-align: center;
     }
 
+    .box__title h2 {
+        font-size: 32px;
+    }
+
     .box__title p {
         padding: 0 20px 0 20px;
-        font-size: var();
+        font-size: 18px;
     }
 
     .box {
         width: 640px;
+    }
+
+    .box__video {
+        position: absolute;
     }
 }
