@@ -31,10 +31,11 @@
 
 .box__img4 {
     background: url("../../../assets/imgs/mobile-0819.jpg");
-    background-size: cover
+    background-size: cover;
+    background-position: center;
 }
 
-.box .box__video {
+.box__video {
     position: relative;
     top: -355px;
 }
@@ -75,10 +76,6 @@
         flex-direction: column-reverse;
     }
 
-    .box {
-        height: fit-content;
-    }
-
     .box__title {
         text-align: center;
     }
@@ -96,12 +93,29 @@
         width: 640px;
     }
 
-    .box__video {
+    .v1{
         position: relative;
-        top: -370px
+        top: -385px;
+    }
+
+    .box .box__video.v1 video{
+        width: 470px;
+    
+    }
+    .box .box__video.v2 video{
+        width: 390px;
+        left: 0;
+    }
+
+    .v2{
+        top: -430px;
     }
 
     .f_box {
         flex-basis: 50%;
+    }
+
+    .box.last {
+        height: fit-content;
     }
 }
