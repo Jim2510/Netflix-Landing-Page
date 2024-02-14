@@ -21,7 +21,9 @@
   --padding-form: 24px 16px 8px;
   --padding-button-email: 12px 24px;
   /* Font: */
-  --titles-size: 2.5rem;
+  --titles-size: 48px;
+  --title-size-mq: 32px;
+  --font-size-mq: 18px;
   --title-weight: 1000;
   --h3-size: 1.5rem;
   --h3-weight: 400;
@@ -30,5 +32,6 @@
   --p-weight: 400;
   --font-family: 'DM Sans', sans-serif;
   --font-size-form: 20px;
-
+  --font-size-h1: 48px;
+  
 }

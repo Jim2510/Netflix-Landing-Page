@@ -1,7 +1,6 @@
 header {
     background: url(../../../assets/imgs/IT-it-20240129-popsignuptwoweeks-perspective_alpha_website_small.jpg) ;
     
-    
 }
 .overlay{
     width: 100%;
@@ -10,7 +9,7 @@ header {
 }
 
 .banner {
-    width: 85%;
+    width: 93%;
     height: 144px;
     background: radial-gradient(51.39% 511.66% at 47.68% -217.91%,
             #ff9900 0%,
@@ -55,4 +54,36 @@ header {
     display: flex;
     align-items: center;
 
+}
+ 
+@media screen and (max-width: 960px) {
+    .main-title{
+        font-size: var(--title-size-mq);
+    }
+    .h3, .p{
+        font-size: var(--font-size-mq);
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+   .column-mq{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+   }
+   .button{
+    width: 106px;
+    height: 48px;
+    font-size: 17px;
+   }
+   .banner{
+    flex-direction: column;
+    margin-top: 60px;
+   }
+   .banner svg{
+    position: relative;
+    z-index: 100;
+   }
 }
