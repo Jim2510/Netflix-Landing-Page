@@ -126,7 +126,12 @@
 
 @media screen and (max-width: 600px) {
   .box {
-    width: 450px;
+    width: 100%;
+    height: auto;
+  }
+
+  .box .image {
+    width: 100%;
   }
 
   .box .box__video.v1 video {
