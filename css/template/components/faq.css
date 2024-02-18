@@ -26,6 +26,12 @@ button:hover {
         align-items: center;
         gap: 15px;
     }
+
+    form.flex.column,
+    .input-mail {
+        max-width: 100%;
+    }
+
 }
 
 @media screen and (max-width:900px) {
