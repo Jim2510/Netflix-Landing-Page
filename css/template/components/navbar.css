@@ -36,3 +36,9 @@ nav .nav__logo img {
     margin-left: 10px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .nav {
+    width: 100%;
+  }
+}

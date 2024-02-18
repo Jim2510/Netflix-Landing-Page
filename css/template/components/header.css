@@ -95,3 +95,13 @@ header{
     max-width: 100%;
    }
 }
+
+@media screen and (max-width:480px) {
+    .banner {
+        height: auto;
+    }
+
+    .banner svg {
+        top: -20px
+    }
+}
