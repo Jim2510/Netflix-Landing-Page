@@ -75,7 +75,7 @@
     margin-top: 16px;
 }
 
-.mtop25{
+.mtop25 {
     margin-top: 25px;
 }
 
@@ -85,6 +85,10 @@
 
 .mbot60 {
     margin-bottom: 60px;
+}
+
+.mbot45 {
+    margin-bottom: 45px;
 }
 
 .fit-content {
