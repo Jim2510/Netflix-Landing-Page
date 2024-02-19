@@ -1,6 +1,6 @@
 header {
-
-    background: url('../../../assets/imgs/IT-it-20240129-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    height: 700px;
+    background: url('../../../assets/imgs/bg.jpg');
 }
 
 .overlay {
@@ -83,6 +83,10 @@ header {
         gap: 15px;
     }
 
+    .header {
+        width: auto;
+    }
+
     .button {
         width: 106px;
         height: 48px;
@@ -102,14 +106,20 @@ header {
     .mq-maxw-600 {
         max-width: 100%;
     }
+
+    .bg {
+        margin-top: 0;
+    }
 }
 
 @media screen and (max-width:480px) {
     .banner {
         height: auto;
+        padding: 0;
     }
 
     .banner .pop-corn {
-        top: -20px
+        top: -20px;
+
     }
 }
