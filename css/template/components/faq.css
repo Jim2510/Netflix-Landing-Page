@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: var(--h3-size);
     padding: 24px;
 
 }
@@ -20,8 +20,22 @@ button:hover {
     background-color: var(--color-terziary-hover);
 }
 
-h2 {
-    margin-bottom: 30px;
-    font-size: 3rem;
-    font-weight: 900;
+@media screen and (max-width:600px) {
+    .form-btn {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    form.flex.column,
+    .input-mail {
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .faq ul li {
+        font-size: var(--p-size);
+    }
 }
